@@ -18,6 +18,7 @@ code {
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
+  min-height: 100vh;
 }
 
 .notes-list{
@@ -36,6 +37,7 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  white-space: pre-wrap;
 }
 
 .note.new{
@@ -66,4 +68,43 @@ textarea:focus{
   display: flex;
   align-items: center ;
   justify-content: space-between;
+}
+
+.delete-icon:hover{
+  cursor: pointer;
+  color: red;
+  scale: 1.2;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  background-color: #e1e1e1;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 1.5em;
+}
+
+.search input{
+  background-color: #e1e1e1;
+  border: none;
+  width: 80vw  ;
+}
+
+.search input:focus{
+  outline: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.dark-mode{
+  background-color: #252525;
+}
+
+.dark-mode h1{
+  color: white;
 }
