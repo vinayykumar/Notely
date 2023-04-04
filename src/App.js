@@ -3,6 +3,12 @@ import Header from "./components/Header";
 import Noteslist from "./components/Noteslist";
 import Search from "./components/Search";
 import {nanoid} from 'nanoid';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App(){
   const[Notes,setNotes] = useState([{
