@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Notely%20/static/css/main.fb21dfff.css",
-    "main.js": "/Notely%20/static/js/main.11b51010.js",
-    "index.html": "/Notely%20/index.html",
-    "main.fb21dfff.css.map": "/Notely%20/static/css/main.fb21dfff.css.map",
-    "main.11b51010.js.map": "/Notely%20/static/js/main.11b51010.js.map"
+    "main.css": "/Notely/static/css/main.fb21dfff.css",
+    "main.js": "/Notely/static/js/main.11b51010.js",
+    "index.html": "/Notely/index.html",
+    "main.fb21dfff.css.map": "/Notely/static/css/main.fb21dfff.css.map",
+    "main.11b51010.js.map": "/Notely/static/js/main.11b51010.js.map"
   },
   "entrypoints": [
     "static/css/main.fb21dfff.css",
